@@ -18,5 +18,8 @@
     <ClCompile Include="..\..\C_Basic\CH11\0308_struct_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0308_struct_2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
