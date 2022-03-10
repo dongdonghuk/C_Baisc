@@ -14,8 +14,8 @@ int main()
 
 
 	//구조체변수(통합자료형 변수)
-	struct EMPLOYEE emps[EMP_SZ];
-	int i, Cn;
+	struct EMPLOYEE emps[EMP_SZ], *ptr;
+	int i, Cn=0;
 
 	for (i = 0; i < EMP_SZ; i++)
 	{
@@ -37,9 +37,17 @@ int main()
 
 	Cn = i;
 
-	for (i = 0; i < Cn; i++)
-		printf("%s, %d, %.2f, %s \n", emps[i].name, emps[i].salary, emps[i].height, emps[i].comAddr);
+	ptr = emps;
 
+	while (1)
+	{
+		if (!strcmp(ptr->name, "end"))
+			break;
+		printf("%s, %d, %.2f, %s \n", ptr->name, ptr->salary, ptr->height, ptr->comAddr);
 
+		ptr++;
+		
+	}
+	
 	return 0;
 }
