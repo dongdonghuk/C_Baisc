@@ -50,6 +50,8 @@ int main()
         }
     }
 
+    free(ptr);
+
 
     // 노드출력
     ptr = head;

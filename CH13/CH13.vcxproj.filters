@@ -39,5 +39,53 @@
     <ClCompile Include="0311_func_pointer_2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0314_d_linked.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0314_dataSwap.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0314_double_pointer_2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0314_malloc_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0314_malloc_2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0314_pointer_cast.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0314_s_linked.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0314_s2_linked.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0314_void_pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0315_queue_link.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0315_stack_link.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0315_stack_array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0315_stack_Darray.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\r2com\Downloads\employee_global.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0315_employee_global.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0315_employee_local.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
